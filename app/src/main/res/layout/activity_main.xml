@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="40dp" android:id="@+id/output"
+            android:textColor="@color/colorPrimaryDark" android:textSize="24sp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="297dp"
+            android:layout_height="483dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/output" app:layout_constraintVertical_bias="0.222"
+    >
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="92dp" android:layout_marginTop="5dp">
+            <Button
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:id="@+id/b1" style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:layout_weight="1" android:id="@+id/b2"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/b3"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="91dp" android:layout_marginTop="5dp">
+            <Button
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:id="@+id/b4" style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:layout_weight="1" android:id="@+id/b5"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/b6"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="90dp" android:layout_marginTop="5dp">
+            <Button
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:id="@+id/b7" style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:layout_weight="1" android:id="@+id/b8"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/b9"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="91dp" android:layout_marginTop="5dp">
+            <Button
+                    android:text="+"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:id="@+id/bplus" android:textSize="24sp"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="-"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    android:layout_weight="1" android:id="@+id/bminus" android:textSize="24sp"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+            <Button
+                    android:text="="
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/beq"
+                    android:textSize="24sp" style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="@color/colorPrimary"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_marginTop="5dp">
+            <Button
+                    android:text="Undo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/undo" android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored" android:background="@color/colorPrimaryDark"
+                    android:layout_marginLeft="5dp"/>
+            <Button
+                    android:text="Clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" android:id="@+id/clear" android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Colored" android:background="@color/colorPrimaryDark"
+                    android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
